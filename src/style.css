@@ -1,0 +1,51 @@
+.character-tile-container {
+    background-color: darkslategrey;
+}
+
+.character-tile-container .image-wrapper {
+    position: relative;
+    border: 1px solid transparent;
+}
+.character-tile-container .image-wrapper .character-image {
+    margin: auto;
+    align-self: center;
+    width: 100%;
+}
+
+.character-tile-container .image-wrapper .character-introduction {
+    background-color: grey;
+    opacity: 0.6;
+    position: absolute;
+    color: white;
+    font-size: 1rem;
+    bottom: 0;
+    width: 100%;
+}
+
+.character-tile {
+    border-radius: 1%;
+    background-color: grey;
+    height: 100%;
+}
+
+.character-tile .character-description > div {
+    color: white;
+}
+.character-tile .character-description > hr {
+    color: white;
+    background-color: white
+}
+
+.character-tile .character-description .detail {
+    text-align: right;
+    color: orange;
+}
+.content .right-section .filteredNames .filterName  {
+    cursor: pointer;
+    color: white; 
+    background-color: darkslategrey;
+}
+
+.filters .filter {
+    border: 1px solid black
+}

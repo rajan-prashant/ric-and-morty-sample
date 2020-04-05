@@ -1,2 +1,2 @@
-# ric-and-morty-sample
-Screening assignment
+# rick-and-morty-sample
+Practice assignment

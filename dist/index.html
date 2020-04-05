@@ -1,0 +1,60 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Rick & Morty</title>
+        <!-- <script src="main.js"></script> -->
+        <script src="bundle.js"></script>
+    </head>
+
+    <body class="container">
+        <div class="content">
+            <div class="row">
+                <!-- Left filters menu.  -->
+                <div class="col-12 col-lg-2 filters">
+                    <h3><b>Filters</b></h3>
+                    <div class='filter my-5 p-2'>
+                        <strong>Species</strong>
+                        <div class="species mt-2"></div>
+                    </div>
+                    <div class='filter my-5 p-2'>
+                        <strong>Gender</strong>
+                        <div class="genders mt-2"></div>
+                    </div>
+                    <div class="filter my-5 p-2">
+                        <strong>Origin</strong>
+                        <div class="origins mt-2"></div>
+                    </div>
+                </div>
+                <!-- Right side main pane.  -->
+                <div class="col-12 col-lg-10 right-section">
+                    <div class="row my-2">
+                        <div class="col-12">
+                            <h3><b>Selected Filters</b></h3>
+                            <div class="filteredNames">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row my-2">
+                        <div class="col-9">Search By Name
+                            <div>
+                                <input type="text" name="nameSearch" id="nameSearch">
+                                <button type="button">Search</button>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <select name="" id="sortOptions">
+                                <option value="" selected disabled>Sort By ID</option>
+                                <option value="ascending">Ascending</option>
+                                <option value="descending">Descending</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row character-tile-container">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    </html>
